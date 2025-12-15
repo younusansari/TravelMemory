@@ -1,4 +1,4 @@
-Travel Memory Project on AWS Cloud 
+﻿Travel Memory Project on AWS Cloud 
 
 This document provides detailed technical steps for deploying the TravelMemory application backend on Amazon Web Services (AWS) using Ubuntu, Node.js, MongoDB Cloud, Nginx reverse proxy, SSL via Let’s Encrypt, AMI creation, and Application Load Balancer configuration.
 Backend Deployment – Key Highlights
@@ -90,4 +90,19 @@ Final Outcome
 - Secure backend (HTTPS)
 - Scalable architecture
 - High availability enabled
+
+Database output
+{
+  tripName: 'America Trip',
+  startDateOfJourney: '2025-12-01',
+  endDateOfJourney: '2025-12-15',
+  nameOfHotels: 'Ibbis',
+  placesVisited: 'New york',
+  totalCost: '90000',
+  experience: 'More expensive ',
+  image: 'https://images.pexels.com/photos/1389339/pexels-photo-1389339.jpeg',
+  tripType: 'business',
+  featured: false,
+  shortDescription: 'Nice place'
+}
 
